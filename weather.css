@@ -1,7 +1,7 @@
 /* General body styling */
 body {
   background-color: #e3d7f4; /* pastel purple background */
-  font-family: 'Comic Sans MS', cursive; /* Cute and whimsical font */
+  font-family: Arial, Helvetica, sans-serif; /* Simple and clean sans-serif font */
   display: flex;
   flex-direction: column;
   justify-content: space-between;
