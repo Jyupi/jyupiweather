@@ -1,82 +1,77 @@
-/* General body styling */
 body {
-  background-color: #e3d7f4; /* pastel purple background */
-  font-family: 'Pixel', Arial, sans-serif; /* Pixel art style font, fallback to Arial */
+  background-color: #e3d7f4;
+  font-family: 'Comic Sans MS', cursive;
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100vh; /* Full viewport height */
+  height: 100vh;
 }
 
-/* Styling for the container */
-.container {
-  max-width: 800px;
-  padding: 20px;
-  border: #bba0d3 solid 3px; /* lighter purple border */
+.top {
+  border: #bba0d3 solid 3px;
+  width: 800px;
+  display: block;
+  margin: 30px auto;
   border-radius: 10px;
-  background-color: #f0e4ff; /* very light purple background */
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* subtle shadow */
+  padding: 20px;
+  background-color: #f0e4ff;
 }
 
-/* City name styling */
 .city {
-  color: #76448a; /* darker purple color for contrast */
+  color: #76448a;
   text-align: center;
   font-weight: bold;
+  font-size: 36px;
 }
 
-/* Temperature and emoji styling */
 .emojitemp {
-  font-size: 35px;
+  font-size: 50px;
   text-align: center;
-  color: #512e5f; /* even darker purple for temperature text */
+  color: #512e5f;
+  margin-top: 10px;
 }
 
-/* List items styling under weather details */
 .others {
-  color: #85609c; /* soft purple */
+  color: #85609c;
   text-align: center;
-  list-style-type: none; /* remove bullets */
-  padding-left: 0; /* remove default padding */
+  margin-top: 20px;
+  padding-left: 0;
 }
 
-/* Search tools section styling */
 .searchtools {
   text-align: center;
-  margin-top: 20px; /* add space above search tools */
+  margin-top: 30px;
 }
 
-/* Input field styling */
 #city-input {
   border: #bba0d3 solid 2px;
-  border-radius: 8px;
-  padding: 8px;
+  border-radius: 20px;
+  padding: 12px;
   width: 70%;
+  font-size: 18px;
 }
 
-/* Button styling with hover effect */
 button {
-  background-color: #a569bd; /* purple button */
+  background-color: #a569bd;
   color: white;
-  padding: 10px 15px;
-  border-radius: 8px;
+  padding: 12px 20px;
+  border-radius: 20px;
   border: none;
   transition: background-color 0.3s ease;
+  font-size: 18px;
 }
 
 button:hover {
-  background-color: #d2b4de; /* lighter purple on hover */
+  background-color: #d2b4de;
 }
 
-/* Footer styling */
 footer {
   padding: 20px;
-  background-color: #512e5f; /* dark purple footer */
+  background-color: #512e5f;
   color: white;
   text-align: center;
 }
 
-/* Hover and active effects for links */
 a:hover,
 a:active {
   color: #d2b4de;
