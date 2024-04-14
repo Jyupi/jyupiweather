@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Weather App</title>
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    />
+    <link href="weather.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="top text-center mt-5">
+        <h1 class="city" id="cityname">Seoul, South Korea</h1>
+        <h2 class="emojitemp">🌤 5℃</h2>
+        <ul class="others list-unstyled">
+          <li id="date">Current date: 25th December</li>
+          <li>Precipitation: 81%</li>
+          <li>Wind: 3㎞/h</li>
+          <li>Sunrise: 05:00am</li>
+          <li>Sunset: 07:00pm</li>
+        </ul>
+      </div>
+
+      <div class="searchtools text-center mt-3">
+        <form class="search-form" id="search-form">
+          <input
+            class="form-control"
+            type="text"
+            id="city-input"
+            placeholder="Search your city!"
+          />
+          <button class="btn btn-primary mt-2" type="submit">Search</button>
+        </form>
+      </div>
+    </div>
+
+    <script src="weather2.js"></script>
+  </body>
+</html>

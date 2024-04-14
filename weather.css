@@ -1,0 +1,75 @@
+.top {
+  border: #73c1f8 solid 3px;
+  width: 800px;
+  display: block;
+  margin: 30px;
+  border-radius: 10px;
+  padding: 10px;
+  margin: 0 auto;
+  margin-bottom: 30px;
+  margin-top: 30px;
+}
+
+.city {
+  color: #006ec5;
+  text-align: center;
+  font-weight: bold;
+}
+
+.emojitemp {
+  font-size: 35px;
+  text-align: center;
+}
+
+.others {
+  color: gray;
+  text-align: center;
+}
+
+.searchtools {
+  text-align: center;
+}
+
+.searchengine {
+  padding: 30px;
+  margin: 5px;
+  border: gray solid 3px;
+  border-radius: 10px;
+  width: 710px;
+  height: 30px;
+}
+
+.searchbutton {
+  padding: 10px;
+  height: 65px;
+  margin: 5px;
+  border: #73c1f8 solid 3px;
+  border-radius: 10px;
+  background-color: white;
+  color: slategray;
+  transition: 200ms ease-in-out;
+}
+
+.searchbutton:hover {
+  color: #73c1f8;
+  background-color: lightgray;
+  cursor: pointer;
+}
+
+.bottom {
+  text-align: center;
+}
+
+.forcast {
+  font-size: 30px;
+  color: #006ec5;
+  font-weight: bold;
+  padding: 10px;
+}
+
+.row {
+  display: flex;
+  justify-content: center;
+  font-weight: bold;
+  width: 100%;
+}
