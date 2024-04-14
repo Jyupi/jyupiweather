@@ -52,11 +52,13 @@ body {
 
 /* Input field styling */
 #city-input {
+  box-sizing: border-box; /* Include padding in the width calculation */
   border: #bba0d3 solid 2px;
   border-radius: 20px; /* Rounded border for a cute look */
   padding: 12px; /* Increased padding */
   width: 70%;
   font-size: 18px; /* Larger font size for input field */
+  display: inline-block; /* Display as inline block to center */
 }
 
 /* Button styling with hover effect */
@@ -68,6 +70,7 @@ button {
   border: none;
   transition: background-color 0.3s ease;
   font-size: 18px; /* Larger font size for button */
+  margin-top: 10px; /* Add margin between input and button */
 }
 
 button:hover {
