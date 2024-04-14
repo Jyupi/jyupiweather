@@ -2,17 +2,20 @@
 body {
   background-color: #e3d7f4; /* pastel purple background */
   font-family: 'Pixel', Arial, sans-serif; /* Pixel art style font, fallback to Arial */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Full viewport height */
 }
 
-/* Styling for the top weather display */
-.top {
+/* Styling for the container */
+.container {
+  max-width: 800px;
+  padding: 20px;
   border: #bba0d3 solid 3px; /* lighter purple border */
-  width: 800px;
-  display: block;
-  margin: 30px auto; /* centered with automatic margins */
   border-radius: 10px;
-  padding: 10px;
   background-color: #f0e4ff; /* very light purple background */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* subtle shadow */
 }
 
 /* City name styling */
@@ -33,11 +36,14 @@ body {
 .others {
   color: #85609c; /* soft purple */
   text-align: center;
+  list-style-type: none; /* remove bullets */
+  padding-left: 0; /* remove default padding */
 }
 
 /* Search tools section styling */
 .searchtools {
   text-align: center;
+  margin-top: 20px; /* add space above search tools */
 }
 
 /* Input field styling */
@@ -71,6 +77,7 @@ footer {
 }
 
 /* Hover and active effects for links */
-a:hover, a:active {
+a:hover,
+a:active {
   color: #d2b4de;
 }
