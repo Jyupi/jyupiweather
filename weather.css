@@ -1,77 +1,89 @@
+/* General body styling */
 body {
-  background-color: #e3d7f4;
-  font-family: 'Comic Sans MS', cursive;
+  background-color: #e3d7f4; /* pastel purple background */
+  font-family: 'Comic Sans MS', cursive; /* Cute and whimsical font */
   display: flex;
-  justify-content: center;
+  flex-direction: column;
+  justify-content: space-between;
   align-items: center;
-  height: 100vh;
+  min-height: 100vh; /* Ensure full viewport height */
 }
 
-.top {
-  border: #bba0d3 solid 3px;
+/* Styling for the container */
+.container {
   width: 800px;
-  display: block;
-  margin: 30px auto;
-  border-radius: 10px;
   padding: 20px;
-  background-color: #f0e4ff;
+  border: #bba0d3 solid 3px; /* lighter purple border */
+  border-radius: 10px;
+  background-color: #f0e4ff; /* very light purple background */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* subtle shadow */
+  margin-bottom: 20px; /* Add spacing at the bottom */
 }
 
+/* City name styling */
 .city {
-  color: #76448a;
+  color: #76448a; /* darker purple color for contrast */
   text-align: center;
   font-weight: bold;
-  font-size: 36px;
+  font-size: 36px; /* Larger font size for city name */
 }
 
+/* Temperature and emoji styling */
 .emojitemp {
-  font-size: 50px;
+  font-size: 50px; /* Larger font size for temperature */
   text-align: center;
-  color: #512e5f;
-  margin-top: 10px;
+  color: #512e5f; /* even darker purple for temperature text */
+  margin-top: 10px; /* Add spacing between city name and temperature */
 }
 
+/* List items styling under weather details */
 .others {
-  color: #85609c;
+  color: #85609c; /* soft purple */
   text-align: center;
-  margin-top: 20px;
-  padding-left: 0;
+  margin-top: 20px; /* Add spacing below temperature */
+  padding-left: 0; /* remove default padding */
 }
 
+/* Search tools section styling */
 .searchtools {
   text-align: center;
-  margin-top: 30px;
+  margin-top: 30px; /* Increase margin for better spacing */
 }
 
+/* Input field styling */
 #city-input {
   border: #bba0d3 solid 2px;
-  border-radius: 20px;
-  padding: 12px;
+  border-radius: 20px; /* Rounded border for a cute look */
+  padding: 12px; /* Increased padding */
   width: 70%;
-  font-size: 18px;
+  font-size: 18px; /* Larger font size for input field */
 }
 
+/* Button styling with hover effect */
 button {
-  background-color: #a569bd;
+  background-color: #a569bd; /* purple button */
   color: white;
-  padding: 12px 20px;
-  border-radius: 20px;
+  padding: 12px 20px; /* Increased padding for button */
+  border-radius: 20px; /* Rounded corners for button */
   border: none;
   transition: background-color 0.3s ease;
-  font-size: 18px;
+  font-size: 18px; /* Larger font size for button */
 }
 
 button:hover {
-  background-color: #d2b4de;
+  background-color: #d2b4de; /* lighter purple on hover */
 }
 
+/* Footer styling */
 footer {
   padding: 20px;
-  background-color: #512e5f;
+  background-color: #512e5f; /* dark purple footer */
   color: white;
   text-align: center;
+  width: 100%;
 }
 
+/* Hover and active effects for links */
 a:hover,
 a:active {
   color: #d2b4de;
