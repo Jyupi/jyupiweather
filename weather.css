@@ -55,6 +55,8 @@ body {
   padding: 12px;
   width: 70%;
   font-size: 18px;
+  margin: 0 auto; /* 가운데 정렬을 위해 margin 값을 auto로 설정 */
+  display: block; /* block 요소로 설정하여 화면에서 가로 폭을 차지하도록 함 */
 }
 
 button {
