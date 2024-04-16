@@ -1,92 +1,86 @@
-/* General body styling */
 body {
-  background-color: #e3d7f4; /* pastel purple background */
-  font-family: Arial, Helvetica, sans-serif; /* Simple and clean sans-serif font */
+  background-color: #e3d7f4;
+  font-family: Arial, Helvetica, sans-serif;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
-  min-height: 100vh; /* Ensure full viewport height */
+  min-height: 100vh;
+  margin: 0;
 }
 
-/* Styling for the container */
 .container {
-  width: 800px;
+  width: 80%;
+  max-width: 800px;
   padding: 20px;
-  border: #bba0d3 solid 3px; /* lighter purple border */
+  border: 3px solid #bba0d3;
   border-radius: 10px;
-  background-color: #f0e4ff; /* very light purple background */
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* subtle shadow */
-  margin-bottom: 20px; /* Add spacing at the bottom */
+  background-color: #f0e4ff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
 }
 
-/* City name styling */
 .city {
-  color: #76448a; /* darker purple color for contrast */
+  color: #76448a;
   text-align: center;
   font-weight: bold;
-  font-size: 36px; /* Larger font size for city name */
+  font-size: 36px;
+  margin-bottom: 10px;
 }
 
-/* Temperature and emoji styling */
 .emojitemp {
-  font-size: 50px; /* Larger font size for temperature */
+  font-size: 50px;
   text-align: center;
-  color: #512e5f; /* even darker purple for temperature text */
-  margin-top: 10px; /* Add spacing between city name and temperature */
+  color: #512e5f;
+  margin-top: 10px;
 }
 
-/* List items styling under weather details */
 .others {
-  color: #85609c; /* soft purple */
+  color: #85609c;
   text-align: center;
-  margin-top: 20px; /* Add spacing below temperature */
-  padding-left: 0; /* remove default padding */
+  margin-top: 20px;
+  list-style: none;
+  padding: 0;
 }
 
-/* Search tools section styling */
 .searchtools {
   text-align: center;
-  margin-top: 30px; /* Increase margin for better spacing */
+  margin-top: 30px;
 }
 
-/* Input field styling */
 #city-input {
-  box-sizing: border-box; /* Include padding in the width calculation */
-  border: #bba0d3 solid 2px;
-  border-radius: 20px; /* Rounded border for a cute look */
-  padding: 12px; /* Increased padding */
+  box-sizing: border-box;
+  border: 2px solid #bba0d3;
+  border-radius: 20px;
+  padding: 12px;
   width: 70%;
-  font-size: 18px; /* Larger font size for input field */
-  display: inline-block; /* Display as inline block to center */
+  font-size: 18px;
 }
 
-/* Button styling with hover effect */
 button {
-  background-color: #a569bd; /* purple button */
+  background-color: #a569bd;
   color: white;
-  padding: 12px 20px; /* Increased padding for button */
-  border-radius: 20px; /* Rounded corners for button */
+  padding: 12px 20px;
+  border-radius: 20px;
   border: none;
   transition: background-color 0.3s ease;
-  font-size: 18px; /* Larger font size for button */
-  margin-top: 10px; /* Add margin between input and button */
+  font-size: 18px;
+  margin-top: 10px;
+  cursor: pointer;
 }
 
 button:hover {
-  background-color: #d2b4de; /* lighter purple on hover */
+  background-color: #d2b4de;
 }
 
-/* Footer styling */
 footer {
   padding: 20px;
-  background-color: #512e5f; /* dark purple footer */
+  background-color: #512e5f;
   color: white;
   text-align: center;
   width: 100%;
 }
 
-/* Hover and active effects for links */
 a:hover,
 a:active {
   color: #d2b4de;
